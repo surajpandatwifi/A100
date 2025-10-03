@@ -1,4 +1,4 @@
-import { FileCode, Plus, Minus, FileEdit } from 'lucide-react';
+import { FileCode, Plus, Minus, File as FileEdit } from 'lucide-react';
 
 export default function FileDiffViewer({ changes }) {
   if (!changes || changes.length === 0) {
